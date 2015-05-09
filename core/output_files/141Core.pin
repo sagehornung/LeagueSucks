@@ -1,0 +1,851 @@
+ -- Copyright (C) 1991-2014 Altera Corporation. All rights reserved.
+ -- Your use of Altera Corporation's design tools, logic functions 
+ -- and other software and tools, and its AMPP partner logic 
+ -- functions, and any output files from any of the foregoing 
+ -- (including device programming or simulation files), and any 
+ -- associated documentation or information are expressly subject 
+ -- to the terms and conditions of the Altera Program License 
+ -- Subscription Agreement, the Altera Quartus II License Agreement,
+ -- the Altera MegaCore Function License Agreement, or other 
+ -- applicable license agreement, including, without limitation, 
+ -- that your use is for the sole purpose of programming logic 
+ -- devices manufactured by Altera and sold by Altera or its 
+ -- authorized distributors.  Please refer to the applicable 
+ -- agreement for further details.
+ -- 
+ -- This is a Quartus II output file. It is for reporting purposes only, and is
+ -- not intended for use as a Quartus II input file. This file cannot be used
+ -- to make Quartus II pin assignments - for instructions on how to make pin
+ -- assignments, please see Quartus II help.
+ ---------------------------------------------------------------------------------
+
+
+
+ ---------------------------------------------------------------------------------
+ -- NC            : No Connect. This pin has no internal connection to the device.
+ -- DNU           : Do Not Use. This pin MUST NOT be connected.
+ -- VCCINT        : Dedicated power pin, which MUST be connected to VCC  (1.2V).
+ -- VCCIO         : Dedicated power pin, which MUST be connected to VCC
+ --                 of its bank.
+ --					Bank 1:		2.5V
+ --					Bank 2:		2.5V
+ --					Bank 3:		2.5V
+ --					Bank 4:		2.5V
+ --					Bank 5:		2.5V
+ --					Bank 6:		2.5V
+ --					Bank 7:		2.5V
+ --					Bank 8:		2.5V
+ -- GND           : Dedicated ground pin. Dedicated GND pins MUST be connected to GND.
+ --					It can also be used to report unused dedicated pins. The connection
+ --					on the board for unused dedicated pins depends on whether this will
+ --					be used in a future design. One example is device migration. When
+ --					using device migration, refer to the device pin-tables. If it is a
+ --					GND pin in the pin table or if it will not be used in a future design
+ --					for another purpose the it MUST be connected to GND. If it is an unused
+ --					dedicated pin, then it can be connected to a valid signal on the board
+ --					(low, high, or toggling) if that signal is required for a different
+ --					revision of the design.
+ -- GND+          : Unused input pin. It can also be used to report unused dual-purpose pins.
+ --					This pin should be connected to GND. It may also be connected  to a
+ --					valid signal  on the board  (low, high, or toggling)  if that signal
+ --					is required for a different revision of the design.
+ -- GND*          : Unused  I/O  pin. Connect each pin marked GND* directly to GND
+ --           	    or leave it unconnected.
+ -- RESERVED      : Unused I/O pin, which MUST be left unconnected.
+ -- RESERVED_INPUT    : Pin is tri-stated and should be connected to the board.
+ -- RESERVED_INPUT_WITH_WEAK_PULLUP    : Pin is tri-stated with internal weak pull-up resistor.
+ -- RESERVED_INPUT_WITH_BUS_HOLD       : Pin is tri-stated with bus-hold circuitry.
+ -- RESERVED_OUTPUT_DRIVEN_HIGH        : Pin is output driven high.
+ ---------------------------------------------------------------------------------
+
+
+
+ ---------------------------------------------------------------------------------
+ -- Pin directions (input, output or bidir) are based on device operating in user mode.
+ ---------------------------------------------------------------------------------
+
+Quartus II 64-Bit Version 14.0.0 Build 200 06/17/2014 SJ Web Edition
+CHIP  "141Core"  ASSIGNED TO AN: EP4CE40F29C6
+
+Pin Name/Usage               : Location  : Dir.   : I/O Standard      : Voltage : I/O Bank  : User Assignment
+-------------------------------------------------------------------------------------------------------------
+VCCIO8                       : A2        : power  :                   : 2.5V    : 8         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : A3        :        :                   :         : 8         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : A4        :        :                   :         : 8         :                
+VCCIO8                       : A5        : power  :                   : 2.5V    : 8         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : A6        :        :                   :         : 8         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : A7        :        :                   :         : 8         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : A8        :        :                   :         : 8         :                
+VCCIO8                       : A9        : power  :                   : 2.5V    : 8         :                
+net_packet_flat_i[47]        : A10       : input  : 2.5 V             :         : 8         : N              
+net_packet_flat_o[47]        : A11       : output : 2.5 V             :         : 8         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : A12       :        :                   :         : 8         :                
+VCCIO8                       : A13       : power  :                   : 2.5V    : 8         :                
+GND+                         : A14       :        :                   :         : 8         :                
+net_packet_flat_i[61]        : A15       : input  : 2.5 V             :         : 7         : N              
+VCCIO7                       : A16       : power  :                   : 2.5V    : 7         :                
+net_packet_flat_i[7]         : A17       : input  : 2.5 V             :         : 7         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : A18       :        :                   :         : 7         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : A19       :        :                   :         : 7         :                
+VCCIO7                       : A20       : power  :                   : 2.5V    : 7         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : A21       :        :                   :         : 7         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : A22       :        :                   :         : 7         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : A23       :        :                   :         : 7         :                
+VCCIO7                       : A24       : power  :                   : 2.5V    : 7         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : A25       :        :                   :         : 7         :                
+net_packet_flat_o[37]        : A26       : output : 2.5 V             :         : 7         : N              
+VCCIO7                       : A27       : power  :                   : 2.5V    : 7         :                
+VCCIO2                       : AA1       : power  :                   : 2.5V    : 2         :                
+GND                          : AA2       : gnd    :                   :         :           :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AA3       :        :                   :         : 2         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AA4       :        :                   :         : 2         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AA5       :        :                   :         : 2         :                
+to_mem_flat_o[19]            : AA6       : output : 2.5 V             :         : 2         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : AA7       :        :                   :         : 2         :                
+to_mem_flat_o[15]            : AA8       : output : 2.5 V             :         : 2         : N              
+GNDA1                        : AA9       : gnd    :                   :         :           :                
+net_packet_flat_o[29]        : AA10      : output : 2.5 V             :         : 3         : N              
+VCCIO3                       : AA11      : power  :                   : 2.5V    : 3         :                
+to_mem_flat_o[12]            : AA12      : output : 2.5 V             :         : 3         : N              
+data_mem_addr[30]            : AA13      : output : 2.5 V             :         : 3         : N              
+net_packet_flat_o[26]        : AA14      : output : 2.5 V             :         : 3         : N              
+data_mem_addr[8]             : AA15      : output : 2.5 V             :         : 4         : N              
+from_mem_flat_i[31]          : AA16      : input  : 2.5 V             :         : 4         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : AA17      :        :                   :         : 4         :                
+VCCIO4                       : AA18      : power  :                   : 2.5V    : 4         :                
+net_packet_flat_i[33]        : AA19      : input  : 2.5 V             :         : 4         : N              
+GNDA4                        : AA20      : gnd    :                   :         :           :                
+debug_flat_o[31]             : AA21      : output : 2.5 V             :         : 5         : N              
+to_mem_flat_o[28]            : AA22      : output : 2.5 V             :         : 5         : N              
+to_mem_flat_o[26]            : AA23      : output : 2.5 V             :         : 5         : N              
+net_packet_flat_i[16]        : AA24      : input  : 2.5 V             :         : 5         : N              
+from_mem_flat_i[13]          : AA25      : input  : 2.5 V             :         : 5         : N              
+net_packet_flat_o[24]        : AA26      : output : 2.5 V             :         : 5         : N              
+GND                          : AA27      : gnd    :                   :         :           :                
+VCCIO5                       : AA28      : power  :                   : 2.5V    : 5         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AB1       :        :                   :         : 2         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AB2       :        :                   :         : 2         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AB3       :        :                   :         : 2         :                
+to_mem_flat_o[34]            : AB4       : output : 2.5 V             :         : 2         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : AB5       :        :                   :         : 2         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AB6       :        :                   :         : 2         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AB7       :        :                   :         : 2         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AB8       :        :                   :         : 2         :                
+to_mem_flat_o[35]            : AB9       : output : 2.5 V             :         : 3         : N              
+VCCIO3                       : AB10      : power  :                   : 2.5V    : 3         :                
+from_mem_flat_i[11]          : AB11      : input  : 2.5 V             :         : 3         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : AB12      :        :                   :         : 3         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AB13      :        :                   :         : 3         :                
+data_mem_addr[31]            : AB14      : output : 2.5 V             :         : 3         : N              
+data_mem_addr[1]             : AB15      : output : 2.5 V             :         : 4         : N              
+debug_flat_o[2]              : AB16      : output : 2.5 V             :         : 4         : N              
+net_packet_flat_i[17]        : AB17      : input  : 2.5 V             :         : 4         : N              
+net_packet_flat_i[53]        : AB18      : input  : 2.5 V             :         : 4         : N              
+to_mem_flat_o[9]             : AB19      : output : 2.5 V             :         : 4         : N              
+data_mem_addr[9]             : AB20      : output : 2.5 V             :         : 4         : N              
+net_packet_flat_o[8]         : AB21      : output : 2.5 V             :         : 4         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : AB22      :        :                   :         : 5         :                
+debug_flat_o[7]              : AB23      : output : 2.5 V             :         : 5         : N              
+to_mem_flat_o[22]            : AB24      : output : 2.5 V             :         : 5         : N              
+from_mem_flat_i[14]          : AB25      : input  : 2.5 V             :         : 5         : N              
+net_packet_flat_o[40]        : AB26      : output : 2.5 V             :         : 5         : N              
+net_packet_flat_i[21]        : AB27      : input  : 2.5 V             :         : 5         : N              
+from_mem_flat_i[15]          : AB28      : input  : 2.5 V             :         : 5         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : AC1       :        :                   :         : 2         :                
+to_mem_flat_o[27]            : AC2       : output : 2.5 V             :         : 2         : N              
+to_mem_flat_o[32]            : AC3       : output : 2.5 V             :         : 2         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : AC4       :        :                   :         : 2         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AC5       :        :                   :         : 2         :                
+GND                          : AC6       : gnd    :                   :         :           :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AC7       :        :                   :         : 2         :                
+net_packet_flat_i[30]        : AC8       : input  : 2.5 V             :         : 3         : N              
+GND                          : AC9       : gnd    :                   :         :           :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AC10      :        :                   :         : 3         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AC11      :        :                   :         : 3         :                
+to_mem_flat_o[8]             : AC12      : output : 2.5 V             :         : 3         : N              
+GND                          : AC13      : gnd    :                   :         :           :                
+net_packet_flat_i[31]        : AC14      : input  : 2.5 V             :         : 3         : N              
+data_mem_addr[13]            : AC15      : output : 2.5 V             :         : 4         : N              
+GND                          : AC16      : gnd    :                   :         :           :                
+debug_flat_o[24]             : AC17      : output : 2.5 V             :         : 4         : N              
+to_mem_flat_o[17]            : AC18      : output : 2.5 V             :         : 4         : N              
+debug_flat_o[22]             : AC19      : output : 2.5 V             :         : 4         : N              
+GND                          : AC20      : gnd    :                   :         :           :                
+net_packet_flat_o[17]        : AC21      : output : 2.5 V             :         : 4         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : AC22      :        :                   :         : 4         :                
+GND                          : AC23      : gnd    :                   :         :           :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AC24      :        :                   :         : 5         :                
+net_packet_flat_o[16]        : AC25      : output : 2.5 V             :         : 5         : N              
+to_mem_flat_o[6]             : AC26      : output : 2.5 V             :         : 5         : N              
+reset                        : AC27      : input  : 2.5 V             :         : 5         : N              
+from_mem_flat_i[20]          : AC28      : input  : 2.5 V             :         : 5         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : AD1       :        :                   :         : 2         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AD2       :        :                   :         : 2         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AD3       :        :                   :         : 2         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AD4       :        :                   :         : 2         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AD5       :        :                   :         : 2         :                
+VCCIO3                       : AD6       : power  :                   : 2.5V    : 3         :                
+to_mem_flat_o[30]            : AD7       : output : 2.5 V             :         : 3         : N              
+data_mem_addr[11]            : AD8       : output : 2.5 V             :         : 3         : N              
+VCCIO3                       : AD9       : power  :                   : 2.5V    : 3         :                
+net_packet_flat_o[30]        : AD10      : output : 2.5 V             :         : 3         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : AD11      :        :                   :         : 3         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AD12      :        :                   :         : 3         :                
+VCCIO3                       : AD13      : power  :                   : 2.5V    : 3         :                
+to_mem_flat_o[13]            : AD14      : output : 2.5 V             :         : 3         : N              
+to_mem_flat_o[1]             : AD15      : output : 2.5 V             :         : 4         : N              
+VCCIO4                       : AD16      : power  :                   : 2.5V    : 4         :                
+barrier_o[2]                 : AD17      : output : 2.5 V             :         : 4         : N              
+debug_flat_o[6]              : AD18      : output : 2.5 V             :         : 4         : N              
+net_packet_flat_i[22]        : AD19      : input  : 2.5 V             :         : 4         : N              
+VCCIO4                       : AD20      : power  :                   : 2.5V    : 4         :                
+from_mem_flat_i[23]          : AD21      : input  : 2.5 V             :         : 4         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : AD22      :        :                   :         : 4         :                
+VCCIO4                       : AD23      : power  :                   : 2.5V    : 4         :                
+data_mem_addr[19]            : AD24      : output : 2.5 V             :         : 5         : N              
+net_packet_flat_i[8]         : AD25      : input  : 2.5 V             :         : 5         : N              
+debug_flat_o[23]             : AD26      : output : 2.5 V             :         : 5         : N              
+net_packet_flat_i[25]        : AD27      : input  : 2.5 V             :         : 5         : N              
+to_mem_flat_o[24]            : AD28      : output : 2.5 V             :         : 5         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : AE1       :        :                   :         : 2         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AE2       :        :                   :         : 2         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AE3       :        :                   :         : 2         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AE4       :        :                   :         : 2         :                
+to_mem_flat_o[33]            : AE5       : output : 2.5 V             :         : 3         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : AE6       :        :                   :         : 3         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AE7       :        :                   :         : 3         :                
+net_packet_flat_i[42]        : AE8       : input  : 2.5 V             :         : 3         : N              
+to_mem_flat_o[2]             : AE9       : output : 2.5 V             :         : 3         : N              
+net_packet_flat_i[27]        : AE10      : input  : 2.5 V             :         : 3         : N              
+from_mem_flat_i[29]          : AE11      : input  : 2.5 V             :         : 3         : N              
+from_mem_flat_i[22]          : AE12      : input  : 2.5 V             :         : 3         : N              
+data_mem_addr[23]            : AE13      : output : 2.5 V             :         : 3         : N              
+data_mem_addr[28]            : AE14      : output : 2.5 V             :         : 3         : N              
+data_mem_addr[17]            : AE15      : output : 2.5 V             :         : 4         : N              
+debug_flat_o[3]              : AE16      : output : 2.5 V             :         : 4         : N              
+from_mem_flat_i[5]           : AE17      : input  : 2.5 V             :         : 4         : N              
+net_packet_flat_i[0]         : AE18      : input  : 2.5 V             :         : 4         : N              
+debug_flat_o[26]             : AE19      : output : 2.5 V             :         : 4         : N              
+net_packet_flat_o[22]        : AE20      : output : 2.5 V             :         : 4         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : AE21      :        :                   :         : 4         :                
+net_packet_flat_o[19]        : AE22      : output : 2.5 V             :         : 4         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : AE23      :        :                   :         : 4         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AE24      :        :                   :         : 4         :                
+net_packet_flat_o[18]        : AE25      : output : 2.5 V             :         : 4         : N              
+net_packet_flat_o[48]        : AE26      : output : 2.5 V             :         : 5         : N              
+net_packet_flat_i[48]        : AE27      : input  : 2.5 V             :         : 5         : N              
+to_mem_flat_o[5]             : AE28      : output : 2.5 V             :         : 5         : N              
+GND                          : AF1       : gnd    :                   :         :           :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AF2       :        :                   :         : 2         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AF3       :        :                   :         : 2         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AF4       :        :                   :         : 3         :                
+from_mem_flat_i[8]           : AF5       : input  : 2.5 V             :         : 3         : N              
+data_mem_addr[29]            : AF6       : output : 2.5 V             :         : 3         : N              
+from_mem_flat_i[30]          : AF7       : input  : 2.5 V             :         : 3         : N              
+from_mem_flat_i[28]          : AF8       : input  : 2.5 V             :         : 3         : N              
+data_mem_addr[26]            : AF9       : output : 2.5 V             :         : 3         : N              
+data_mem_addr[27]            : AF10      : output : 2.5 V             :         : 3         : N              
+from_mem_flat_i[33]          : AF11      : input  : 2.5 V             :         : 3         : N              
+data_mem_addr[16]            : AF12      : output : 2.5 V             :         : 3         : N              
+data_mem_addr[22]            : AF13      : output : 2.5 V             :         : 3         : N              
+data_mem_addr[18]            : AF14      : output : 2.5 V             :         : 3         : N              
+from_mem_flat_i[10]          : AF15      : input  : 2.5 V             :         : 4         : N              
+debug_flat_o[0]              : AF16      : output : 2.5 V             :         : 4         : N              
+barrier_o[0]                 : AF17      : output : 2.5 V             :         : 4         : N              
+data_mem_addr[0]             : AF18      : output : 2.5 V             :         : 4         : N              
+debug_flat_o[30]             : AF19      : output : 2.5 V             :         : 4         : N              
+debug_flat_o[1]              : AF20      : output : 2.5 V             :         : 4         : N              
+net_packet_flat_o[0]         : AF21      : output : 2.5 V             :         : 4         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : AF22      :        :                   :         : 4         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AF23      :        :                   :         : 4         :                
+net_packet_flat_i[54]        : AF24      : input  : 2.5 V             :         : 4         : N              
+net_packet_flat_o[53]        : AF25      : output : 2.5 V             :         : 4         : N              
+net_packet_flat_o[33]        : AF26      : output : 2.5 V             :         : 4         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : AF27      :        :                   :         : 5         :                
+GND                          : AF28      : gnd    :                   :         :           :                
+VCCIO2                       : AG1       : power  :                   : 2.5V    : 2         :                
+GND                          : AG2       : gnd    :                   :         :           :                
+debug_flat_o[20]             : AG3       : output : 2.5 V             :         : 3         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : AG4       :        :                   :         : 3         :                
+GND                          : AG5       : gnd    :                   :         :           :                
+data_mem_addr[25]            : AG6       : output : 2.5 V             :         : 3         : N              
+net_packet_flat_o[28]        : AG7       : output : 2.5 V             :         : 3         : N              
+net_packet_flat_i[20]        : AG8       : input  : 2.5 V             :         : 3         : N              
+GND                          : AG9       : gnd    :                   :         :           :                
+data_mem_addr[24]            : AG10      : output : 2.5 V             :         : 3         : N              
+net_packet_flat_i[26]        : AG11      : input  : 2.5 V             :         : 3         : N              
+net_packet_flat_o[31]        : AG12      : output : 2.5 V             :         : 3         : N              
+GND                          : AG13      : gnd    :                   :         :           :                
+GND+                         : AG14      :        :                   :         : 3         :                
+GND+                         : AG15      :        :                   :         : 4         :                
+GND                          : AG16      : gnd    :                   :         :           :                
+from_mem_flat_i[32]          : AG17      : input  : 2.5 V             :         : 4         : N              
+debug_flat_o[32]             : AG18      : output : 2.5 V             :         : 4         : N              
+debug_flat_o[19]             : AG19      : output : 2.5 V             :         : 4         : N              
+GND                          : AG20      : gnd    :                   :         :           :                
+net_packet_flat_o[54]        : AG21      : output : 2.5 V             :         : 4         : N              
+barrier_o[1]                 : AG22      : output : 2.5 V             :         : 4         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : AG23      :        :                   :         : 4         :                
+GND                          : AG24      : gnd    :                   :         :           :                
+net_packet_flat_i[18]        : AG25      : input  : 2.5 V             :         : 4         : N              
+data_mem_addr[6]             : AG26      : output : 2.5 V             :         : 4         : N              
+GND                          : AG27      : gnd    :                   :         :           :                
+VCCIO5                       : AG28      : power  :                   : 2.5V    : 5         :                
+VCCIO3                       : AH2       : power  :                   : 2.5V    : 3         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AH3       :        :                   :         : 3         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AH4       :        :                   :         : 3         :                
+VCCIO3                       : AH5       : power  :                   : 2.5V    : 3         :                
+to_mem_flat_o[11]            : AH6       : output : 2.5 V             :         : 3         : N              
+net_packet_flat_i[28]        : AH7       : input  : 2.5 V             :         : 3         : N              
+to_mem_flat_o[14]            : AH8       : output : 2.5 V             :         : 3         : N              
+VCCIO3                       : AH9       : power  :                   : 2.5V    : 3         :                
+data_mem_addr[21]            : AH10      : output : 2.5 V             :         : 3         : N              
+data_mem_addr[12]            : AH11      : output : 2.5 V             :         : 3         : N              
+data_mem_addr[10]            : AH12      : output : 2.5 V             :         : 3         : N              
+VCCIO3                       : AH13      : power  :                   : 2.5V    : 3         :                
+GND+                         : AH14      :        :                   :         : 3         :                
+GND+                         : AH15      :        :                   :         : 4         :                
+VCCIO4                       : AH16      : power  :                   : 2.5V    : 4         :                
+data_mem_addr[3]             : AH17      : output : 2.5 V             :         : 4         : N              
+data_mem_addr[2]             : AH18      : output : 2.5 V             :         : 4         : N              
+debug_flat_o[5]              : AH19      : output : 2.5 V             :         : 4         : N              
+VCCIO4                       : AH20      : power  :                   : 2.5V    : 4         :                
+debug_flat_o[4]              : AH21      : output : 2.5 V             :         : 4         : N              
+net_packet_flat_o[52]        : AH22      : output : 2.5 V             :         : 4         : N              
+net_packet_flat_i[52]        : AH23      : input  : 2.5 V             :         : 4         : N              
+VCCIO4                       : AH24      : power  :                   : 2.5V    : 4         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AH25      :        :                   :         : 4         :                
+net_packet_flat_i[19]        : AH26      : input  : 2.5 V             :         : 4         : N              
+VCCIO4                       : AH27      : power  :                   : 2.5V    : 4         :                
+VCCIO1                       : B1        : power  :                   : 2.5V    : 1         :                
+GND                          : B2        : gnd    :                   :         :           :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : B3        :        :                   :         : 8         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : B4        :        :                   :         : 8         :                
+GND                          : B5        : gnd    :                   :         :           :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : B6        :        :                   :         : 8         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : B7        :        :                   :         : 8         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : B8        :        :                   :         : 8         :                
+GND                          : B9        : gnd    :                   :         :           :                
+net_packet_flat_o[43]        : B10       : output : 2.5 V             :         : 8         : N              
+net_packet_flat_o[45]        : B11       : output : 2.5 V             :         : 8         : N              
+GND                          : B12       : gnd    :                   :         :           :                
+GND                          : B13       : gnd    :                   :         :           :                
+GND+                         : B14       :        :                   :         : 8         :                
+net_packet_flat_i[62]        : B15       : input  : 2.5 V             :         : 7         : N              
+GND                          : B16       : gnd    :                   :         :           :                
+to_mem_flat_o[0]             : B17       : output : 2.5 V             :         : 7         : N              
+debug_flat_o[14]             : B18       : output : 2.5 V             :         : 7         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : B19       :        :                   :         : 7         :                
+GND                          : B20       : gnd    :                   :         :           :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : B21       :        :                   :         : 7         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : B22       :        :                   :         : 7         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : B23       :        :                   :         : 7         :                
+GND                          : B24       : gnd    :                   :         :           :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : B25       :        :                   :         : 7         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : B26       :        :                   :         : 7         :                
+GND                          : B27       : gnd    :                   :         :           :                
+VCCIO6                       : B28       : power  :                   : 2.5V    : 6         :                
+GND                          : C1        : gnd    :                   :         :           :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : C2        :        :                   :         : 1         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : C3        :        :                   :         : 8         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : C4        :        :                   :         : 8         :                
+net_packet_flat_o[51]        : C5        : output : 2.5 V             :         : 8         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : C6        :        :                   :         : 8         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : C7        :        :                   :         : 8         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : C8        :        :                   :         : 8         :                
+from_mem_flat_i[1]           : C9        : input  : 2.5 V             :         : 8         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : C10       :        :                   :         : 8         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : C11       :        :                   :         : 8         :                
+net_packet_flat_o[60]        : C12       : output : 2.5 V             :         : 8         : N              
+net_packet_flat_i[60]        : C13       : input  : 2.5 V             :         : 8         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : C14       :        :                   :         : 8         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : C15       :        :                   :         : 7         :                
+net_packet_flat_o[50]        : C16       : output : 2.5 V             :         : 7         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : C17       :        :                   :         : 7         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : C18       :        :                   :         : 7         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : C19       :        :                   :         : 7         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : C20       :        :                   :         : 7         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : C21       :        :                   :         : 7         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : C22       :        :                   :         : 7         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : C23       :        :                   :         : 7         :                
+debug_flat_o[10]             : C24       : output : 2.5 V             :         : 7         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : C25       :        :                   :         : 7         :                
+net_packet_flat_o[64]        : C26       : output : 2.5 V             :         : 6         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : C27       :        :                   :         : 6         :                
+GND                          : C28       : gnd    :                   :         :           :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : D1        :        :                   :         : 1         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : D2        :        :                   :         : 1         :                
+GND                          : D3        : gnd    :                   :         :           :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : D4        :        :                   :         : 8         :                
+net_packet_flat_i[51]        : D5        : input  : 2.5 V             :         : 8         : N              
+data_mem_addr[15]            : D6        : output : 2.5 V             :         : 8         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : D7        :        :                   :         : 8         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : D8        :        :                   :         : 8         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : D9        :        :                   :         : 8         :                
+net_packet_flat_i[9]         : D10       : input  : 2.5 V             :         : 8         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : D11       :        :                   :         : 8         :                
+net_packet_flat_o[62]        : D12       : output : 2.5 V             :         : 8         : N              
+net_packet_flat_i[59]        : D13       : input  : 2.5 V             :         : 8         : N              
+net_packet_flat_o[59]        : D14       : output : 2.5 V             :         : 8         : N              
+net_packet_flat_i[37]        : D15       : input  : 2.5 V             :         : 7         : N              
+exception_o                  : D16       : output : 2.5 V             :         : 7         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : D17       :        :                   :         : 7         :                
+net_packet_flat_i[57]        : D18       : input  : 2.5 V             :         : 7         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : D19       :        :                   :         : 7         :                
+net_packet_flat_o[57]        : D20       : output : 2.5 V             :         : 7         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : D21       :        :                   :         : 7         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : D22       :        :                   :         : 7         :                
+debug_flat_o[8]              : D23       : output : 2.5 V             :         : 7         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : D24       :        :                   :         : 6         :                
+net_packet_flat_i[64]        : D25       : input  : 2.5 V             :         : 6         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : D26       :        :                   :         : 6         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : D27       :        :                   :         : 6         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : D28       :        :                   :         : 6         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : E1        :        :                   :         : 1         :                
+~ALTERA_FLASH_nCE_nCSO~ / RESERVED_INPUT_WITH_WEAK_PULLUP : E2        : input  : 2.5 V             :         : 1         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : E3        :        :                   :         : 1         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : E4        :        :                   :         : 1         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : E5        :        :                   :         : 1         :                
+VCCIO8                       : E6        : power  :                   : 2.5V    : 8         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : E7        :        :                   :         : 8         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : E8        :        :                   :         : 8         :                
+VCCIO8                       : E9        : power  :                   : 2.5V    : 8         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : E10       :        :                   :         : 8         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : E11       :        :                   :         : 8         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : E12       :        :                   :         : 8         :                
+VCCIO8                       : E13       : power  :                   : 2.5V    : 8         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : E14       :        :                   :         : 8         :                
+from_mem_flat_i[3]           : E15       : input  : 2.5 V             :         : 7         : N              
+VCCIO7                       : E16       : power  :                   : 2.5V    : 7         :                
+net_packet_flat_o[63]        : E17       : output : 2.5 V             :         : 7         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : E18       :        :                   :         : 7         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : E19       :        :                   :         : 7         :                
+VCCIO7                       : E20       : power  :                   : 2.5V    : 7         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : E21       :        :                   :         : 7         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : E22       :        :                   :         : 7         :                
+VCCIO7                       : E23       : power  :                   : 2.5V    : 7         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : E24       :        :                   :         : 6         :                
+net_packet_flat_o[44]        : E25       : output : 2.5 V             :         : 6         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : E26       :        :                   :         : 6         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : E27       :        :                   :         : 6         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : E28       :        :                   :         : 6         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : F1        :        :                   :         : 1         :                
+net_packet_flat_o[49]        : F2        : output : 2.5 V             :         : 1         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : F3        :        :                   :         : 1         :                
+~ALTERA_ASDO_DATA1~ / RESERVED_INPUT_WITH_WEAK_PULLUP : F4        : input  : 2.5 V             :         : 1         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : F5        :        :                   :         : 1         :                
+GND                          : F6        : gnd    :                   :         :           :                
+from_mem_flat_i[6]           : F7        : input  : 2.5 V             :         : 8         : N              
+net_packet_flat_o[9]         : F8        : output : 2.5 V             :         : 8         : N              
+GND                          : F9        : gnd    :                   :         :           :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : F10       :        :                   :         : 8         :                
+debug_flat_o[9]              : F11       : output : 2.5 V             :         : 8         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : F12       :        :                   :         : 8         :                
+GND                          : F13       : gnd    :                   :         :           :                
+net_packet_flat_i[45]        : F14       : input  : 2.5 V             :         : 8         : N              
+net_packet_flat_i[50]        : F15       : input  : 2.5 V             :         : 7         : N              
+GND                          : F16       : gnd    :                   :         :           :                
+debug_flat_o[15]             : F17       : output : 2.5 V             :         : 7         : N              
+net_packet_flat_o[7]         : F18       : output : 2.5 V             :         : 7         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : F19       :        :                   :         : 7         :                
+GND                          : F20       : gnd    :                   :         :           :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : F21       :        :                   :         : 7         :                
+net_packet_flat_o[1]         : F22       : output : 2.5 V             :         : 7         : N              
+GND                          : F23       : gnd    :                   :         :           :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : F24       :        :                   :         : 6         :                
+debug_flat_o[13]             : F25       : output : 2.5 V             :         : 6         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : F26       :        :                   :         : 6         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : F27       :        :                   :         : 6         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : F28       :        :                   :         : 6         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : G1        :        :                   :         : 1         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : G2        :        :                   :         : 1         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : G3        :        :                   :         : 1         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : G4        :        :                   :         : 1         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : G5        :        :                   :         : 1         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : G6        :        :                   :         : 1         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : G7        :        :                   :         : 1         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : G8        :        :                   :         : 8         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : G9        :        :                   :         : 8         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : G10       :        :                   :         : 8         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : G11       :        :                   :         : 8         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : G12       :        :                   :         : 8         :                
+net_packet_flat_i[43]        : G13       : input  : 2.5 V             :         : 8         : N              
+net_packet_flat_o[61]        : G14       : output : 2.5 V             :         : 8         : N              
+net_packet_flat_o[56]        : G15       : output : 2.5 V             :         : 7         : N              
+net_packet_flat_o[58]        : G16       : output : 2.5 V             :         : 7         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : G17       :        :                   :         : 7         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : G18       :        :                   :         : 7         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : G19       :        :                   :         : 7         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : G20       :        :                   :         : 7         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : G21       :        :                   :         : 7         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : G22       :        :                   :         : 6         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : G23       :        :                   :         : 6         :                
+net_packet_flat_o[6]         : G24       : output : 2.5 V             :         : 6         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : G25       :        :                   :         : 6         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : G26       :        :                   :         : 6         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : G27       :        :                   :         : 6         :                
+debug_flat_o[11]             : G28       : output : 2.5 V             :         : 6         : N              
+VCCIO1                       : H1        : power  :                   : 2.5V    : 1         :                
+GND                          : H2        : gnd    :                   :         :           :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : H3        :        :                   :         : 1         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : H4        :        :                   :         : 1         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : H5        :        :                   :         : 1         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : H6        :        :                   :         : 1         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : H7        :        :                   :         : 1         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : H8        :        :                   :         : 8         :                
+GNDA3                        : H9        : gnd    :                   :         :           :                
+net_packet_flat_o[4]         : H10       : output : 2.5 V             :         : 8         : N              
+VCCIO8                       : H11       : power  :                   : 2.5V    : 8         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : H12       :        :                   :         : 8         :                
+debug_flat_o[12]             : H13       : output : 2.5 V             :         : 8         : N              
+net_packet_flat_i[55]        : H14       : input  : 2.5 V             :         : 7         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : H15       :        :                   :         : 7         :                
+net_packet_flat_i[58]        : H16       : input  : 2.5 V             :         : 7         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : H17       :        :                   :         : 7         :                
+VCCIO7                       : H18       : power  :                   : 2.5V    : 7         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : H19       :        :                   :         : 7         :                
+GNDA2                        : H20       : gnd    :                   :         :           :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : H21       :        :                   :         : 6         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : H22       :        :                   :         : 6         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : H23       :        :                   :         : 6         :                
+net_packet_flat_i[10]        : H24       : input  : 2.5 V             :         : 6         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : H25       :        :                   :         : 6         :                
+net_packet_flat_o[15]        : H26       : output : 2.5 V             :         : 6         : N              
+GND                          : H27       : gnd    :                   :         :           :                
+VCCIO6                       : H28       : power  :                   : 2.5V    : 6         :                
+clk                          : J1        : input  : 2.5 V             :         : 1         : N              
+GND                          : J2        : gnd    :                   :         :           :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : J3        :        :                   :         : 1         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : J4        :        :                   :         : 1         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : J5        :        :                   :         : 1         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : J6        :        :                   :         : 1         :                
+net_packet_flat_i[49]        : J7        : input  : 2.5 V             :         : 1         : N              
+VCCA3                        : J8        : power  :                   : 2.5V    :           :                
+VCCD_PLL3                    : J9        : power  :                   : 1.2V    :           :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : J10       :        :                   :         : 8         :                
+GND                          : J11       : gnd    :                   :         :           :                
+net_packet_flat_i[4]         : J12       : input  : 2.5 V             :         : 8         : N              
+VCCIO8                       : J13       : power  :                   : 2.5V    : 8         :                
+net_packet_flat_o[55]        : J14       : output : 2.5 V             :         : 7         : N              
+VCCIO7                       : J15       : power  :                   : 2.5V    : 7         :                
+net_packet_flat_i[56]        : J16       : input  : 2.5 V             :         : 7         : N              
+net_packet_flat_i[63]        : J17       : input  : 2.5 V             :         : 7         : N              
+GND                          : J18       : gnd    :                   :         :           :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : J19       :        :                   :         : 7         :                
+VCCD_PLL2                    : J20       : power  :                   : 1.2V    :           :                
+VCCA2                        : J21       : power  :                   : 2.5V    :           :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : J22       :        :                   :         : 6         :                
+net_packet_flat_i[41]        : J23       : input  : 2.5 V             :         : 6         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : J24       :        :                   :         : 6         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : J25       :        :                   :         : 6         :                
+net_packet_flat_i[23]        : J26       : input  : 2.5 V             :         : 6         : N              
+from_mem_flat_i[2]           : J27       : input  : 2.5 V             :         : 6         : N              
+from_mem_flat_i[0]           : J28       : input  : 2.5 V             :         : 6         : N              
+to_mem_flat_o[20]            : K1        : output : 2.5 V             :         : 1         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : K2        :        :                   :         : 1         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : K3        :        :                   :         : 1         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : K4        :        :                   :         : 1         :                
+VCCIO1                       : K5        : power  :                   : 2.5V    : 1         :                
+GND                          : K6        : gnd    :                   :         :           :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : K7        :        :                   :         : 1         :                
+VCCIO1                       : K8        : power  :                   : 2.5V    : 1         :                
+VCCINT                       : K9        : power  :                   : 1.2V    :           :                
+GND                          : K10       : gnd    :                   :         :           :                
+VCCINT                       : K11       : power  :                   : 1.2V    :           :                
+GND                          : K12       : gnd    :                   :         :           :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : K13       :        :                   :         : 8         :                
+GND                          : K14       : gnd    :                   :         :           :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : K15       :        :                   :         : 7         :                
+GND                          : K16       : gnd    :                   :         :           :                
+VCCINT                       : K17       : power  :                   : 1.2V    :           :                
+GND                          : K18       : gnd    :                   :         :           :                
+VCCINT                       : K19       : power  :                   : 1.2V    :           :                
+GND                          : K20       : gnd    :                   :         :           :                
+net_packet_flat_i[13]        : K21       : input  : 2.5 V             :         : 6         : N              
+net_packet_flat_o[5]         : K22       : output : 2.5 V             :         : 6         : N              
+GND                          : K23       : gnd    :                   :         :           :                
+VCCIO6                       : K24       : power  :                   : 2.5V    : 6         :                
+net_packet_flat_o[36]        : K25       : output : 2.5 V             :         : 6         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : K26       :        :                   :         : 6         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : K27       :        :                   :         : 6         :                
+net_packet_flat_o[10]        : K28       : output : 2.5 V             :         : 6         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : L1        :        :                   :         : 1         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : L2        :        :                   :         : 1         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : L3        :        :                   :         : 1         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : L4        :        :                   :         : 1         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : L5        :        :                   :         : 1         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : L6        :        :                   :         : 1         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : L7        :        :                   :         : 1         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : L8        :        :                   :         : 1         :                
+GND                          : L9        : gnd    :                   :         :           :                
+VCCINT                       : L10       : power  :                   : 1.2V    :           :                
+GND                          : L11       : gnd    :                   :         :           :                
+VCCINT                       : L12       : power  :                   : 1.2V    :           :                
+GND                          : L13       : gnd    :                   :         :           :                
+VCCINT                       : L14       : power  :                   : 1.2V    :           :                
+GND                          : L15       : gnd    :                   :         :           :                
+VCCINT                       : L16       : power  :                   : 1.2V    :           :                
+GND                          : L17       : gnd    :                   :         :           :                
+VCCINT                       : L18       : power  :                   : 1.2V    :           :                
+GND                          : L19       : gnd    :                   :         :           :                
+net_packet_flat_i[5]         : L20       : input  : 2.5 V             :         : 6         : N              
+VCCIO6                       : L21       : power  :                   : 2.5V    : 6         :                
+net_packet_flat_i[14]        : L22       : input  : 2.5 V             :         : 6         : N              
+net_packet_flat_o[23]        : L23       : output : 2.5 V             :         : 6         : N              
+net_packet_flat_i[44]        : L24       : input  : 2.5 V             :         : 6         : N              
+net_packet_flat_o[12]        : L25       : output : 2.5 V             :         : 6         : N              
+net_packet_flat_o[41]        : L26       : output : 2.5 V             :         : 6         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : L27       :        :                   :         : 6         :                
+net_packet_flat_o[13]        : L28       : output : 2.5 V             :         : 6         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : M1        :        :                   :         : 1         :                
+to_mem_flat_o[21]            : M2        : output : 2.5 V             :         : 1         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : M3        :        :                   :         : 1         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : M4        :        :                   :         : 1         :                
+to_mem_flat_o[29]            : M5        : output : 2.5 V             :         : 1         : N              
+nSTATUS                      : M6        :        :                   :         : 1         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : M7        :        :                   :         : 1         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : M8        :        :                   :         : 1         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : M9        :        :                   :         : 1         :                
+GND                          : M10       : gnd    :                   :         :           :                
+VCCINT                       : M11       : power  :                   : 1.2V    :           :                
+GND                          : M12       : gnd    :                   :         :           :                
+VCCINT                       : M13       : power  :                   : 1.2V    :           :                
+GND                          : M14       : gnd    :                   :         :           :                
+VCCINT                       : M15       : power  :                   : 1.2V    :           :                
+GND                          : M16       : gnd    :                   :         :           :                
+VCCINT                       : M17       : power  :                   : 1.2V    :           :                
+GND                          : M18       : gnd    :                   :         :           :                
+VCCINT                       : M19       : power  :                   : 1.2V    :           :                
+GND                          : M20       : gnd    :                   :         :           :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : M21       :        :                   :         : 6         :                
+MSEL2                        : M22       :        :                   :         : 6         :                
+debug_flat_o[18]             : M23       : output : 2.5 V             :         : 6         : N              
+net_packet_flat_i[36]        : M24       : input  : 2.5 V             :         : 6         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : M25       :        :                   :         : 6         :                
+net_packet_flat_i[46]        : M26       : input  : 2.5 V             :         : 6         : N              
+net_packet_flat_o[46]        : M27       : output : 2.5 V             :         : 6         : N              
+net_packet_flat_o[14]        : M28       : output : 2.5 V             :         : 6         : N              
+VCCIO1                       : N1        : power  :                   : 2.5V    : 1         :                
+GND                          : N2        : gnd    :                   :         :           :                
+to_mem_flat_o[23]            : N3        : output : 2.5 V             :         : 1         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : N4        :        :                   :         : 1         :                
+VCCIO1                       : N5        : power  :                   : 2.5V    : 1         :                
+GND                          : N6        : gnd    :                   :         :           :                
+~ALTERA_DATA0~ / RESERVED_INPUT_WITH_WEAK_PULLUP : N7        : input  : 2.5 V             :         : 1         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : N8        :        :                   :         : 1         :                
+GND                          : N9        : gnd    :                   :         :           :                
+VCCINT                       : N10       : power  :                   : 1.2V    :           :                
+GND                          : N11       : gnd    :                   :         :           :                
+VCCINT                       : N12       : power  :                   : 1.2V    :           :                
+GND                          : N13       : gnd    :                   :         :           :                
+VCCINT                       : N14       : power  :                   : 1.2V    :           :                
+GND                          : N15       : gnd    :                   :         :           :                
+VCCINT                       : N16       : power  :                   : 1.2V    :           :                
+GND                          : N17       : gnd    :                   :         :           :                
+VCCINT                       : N18       : power  :                   : 1.2V    :           :                
+GND                          : N19       : gnd    :                   :         :           :                
+VCCINT                       : N20       : power  :                   : 1.2V    :           :                
+debug_flat_o[17]             : N21       : output : 2.5 V             :         : 6         : N              
+MSEL0                        : N22       :        :                   :         : 6         :                
+GND                          : N23       : gnd    :                   :         :           :                
+VCCIO6                       : N24       : power  :                   : 2.5V    : 6         :                
+debug_flat_o[16]             : N25       : output : 2.5 V             :         : 6         : N              
+net_packet_flat_o[32]        : N26       : output : 2.5 V             :         : 6         : N              
+GND                          : N27       : gnd    :                   :         :           :                
+VCCIO6                       : N28       : power  :                   : 2.5V    : 6         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : P1        :        :                   :         : 1         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : P2        :        :                   :         : 1         :                
+~ALTERA_DCLK~                : P3        : output : 2.5 V             :         : 1         : N              
+nCONFIG                      : P4        :        :                   :         : 1         :                
+TCK                          : P5        : input  :                   :         : 1         :                
+TDO                          : P6        : output :                   :         : 1         :                
+TDI                          : P7        : input  :                   :         : 1         :                
+TMS                          : P8        : input  :                   :         : 1         :                
+VCCINT                       : P9        : power  :                   : 1.2V    :           :                
+GND                          : P10       : gnd    :                   :         :           :                
+VCCINT                       : P11       : power  :                   : 1.2V    :           :                
+GND                          : P12       : gnd    :                   :         :           :                
+VCCINT                       : P13       : power  :                   : 1.2V    :           :                
+GND                          : P14       : gnd    :                   :         :           :                
+VCCINT                       : P15       : power  :                   : 1.2V    :           :                
+GND                          : P16       : gnd    :                   :         :           :                
+VCCINT                       : P17       : power  :                   : 1.2V    :           :                
+GND                          : P18       : gnd    :                   :         :           :                
+VCCINT                       : P19       : power  :                   : 1.2V    :           :                
+GND                          : P20       : gnd    :                   :         :           :                
+net_packet_flat_o[2]         : P21       : output : 2.5 V             :         : 5         : N              
+MSEL3                        : P22       :        :                   :         : 6         :                
+MSEL1                        : P23       :        :                   :         : 6         :                
+CONF_DONE                    : P24       :        :                   :         : 6         :                
+to_mem_flat_o[3]             : P25       : output : 2.5 V             :         : 6         : N              
+net_packet_flat_o[3]         : P26       : output : 2.5 V             :         : 6         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : P27       :        :                   :         : 6         :                
+~ALTERA_nCEO~ / RESERVED_OUTPUT_OPEN_DRAIN : P28       : output : 2.5 V             :         : 6         : N              
+to_mem_flat_o[16]            : R1        : output : 2.5 V             :         : 2         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : R2        :        :                   :         : 2         :                
+net_packet_flat_o[34]        : R3        : output : 2.5 V             :         : 2         : N              
+data_mem_addr[7]             : R4        : output : 2.5 V             :         : 2         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : R5        :        :                   :         : 2         :                
+data_mem_addr[5]             : R6        : output : 2.5 V             :         : 2         : N              
+from_mem_flat_i[9]           : R7        : input  : 2.5 V             :         : 2         : N              
+nCE                          : R8        :        :                   :         : 1         :                
+GND                          : R9        : gnd    :                   :         :           :                
+VCCINT                       : R10       : power  :                   : 1.2V    :           :                
+GND                          : R11       : gnd    :                   :         :           :                
+VCCINT                       : R12       : power  :                   : 1.2V    :           :                
+GND                          : R13       : gnd    :                   :         :           :                
+VCCINT                       : R14       : power  :                   : 1.2V    :           :                
+GND                          : R15       : gnd    :                   :         :           :                
+VCCINT                       : R16       : power  :                   : 1.2V    :           :                
+GND                          : R17       : gnd    :                   :         :           :                
+VCCINT                       : R18       : power  :                   : 1.2V    :           :                
+GND                          : R19       : gnd    :                   :         :           :                
+VCCINT                       : R20       : power  :                   : 1.2V    :           :                
+net_packet_flat_i[3]         : R21       : input  : 2.5 V             :         : 5         : N              
+from_mem_flat_i[12]          : R22       : input  : 2.5 V             :         : 5         : N              
+net_packet_flat_i[12]        : R23       : input  : 2.5 V             :         : 5         : N              
+net_packet_flat_i[6]         : R24       : input  : 2.5 V             :         : 5         : N              
+net_packet_flat_i[2]         : R25       : input  : 2.5 V             :         : 5         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : R26       :        :                   :         : 5         :                
+to_mem_flat_o[4]             : R27       : output : 2.5 V             :         : 5         : N              
+debug_flat_o[29]             : R28       : output : 2.5 V             :         : 5         : N              
+VCCIO2                       : T1        : power  :                   : 2.5V    : 2         :                
+GND                          : T2        : gnd    :                   :         :           :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : T3        :        :                   :         : 2         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : T4        :        :                   :         : 2         :                
+VCCIO2                       : T5        : power  :                   : 2.5V    : 2         :                
+GND                          : T6        : gnd    :                   :         :           :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : T7        :        :                   :         : 2         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : T8        :        :                   :         : 2         :                
+to_mem_flat_o[10]            : T9        : output : 2.5 V             :         : 2         : N              
+GND                          : T10       : gnd    :                   :         :           :                
+VCCINT                       : T11       : power  :                   : 1.2V    :           :                
+GND                          : T12       : gnd    :                   :         :           :                
+VCCINT                       : T13       : power  :                   : 1.2V    :           :                
+GND                          : T14       : gnd    :                   :         :           :                
+VCCINT                       : T15       : power  :                   : 1.2V    :           :                
+GND                          : T16       : gnd    :                   :         :           :                
+VCCINT                       : T17       : power  :                   : 1.2V    :           :                
+GND                          : T18       : gnd    :                   :         :           :                
+VCCINT                       : T19       : power  :                   : 1.2V    :           :                
+GND                          : T20       : gnd    :                   :         :           :                
+net_packet_flat_i[38]        : T21       : input  : 2.5 V             :         : 5         : N              
+net_packet_flat_o[38]        : T22       : output : 2.5 V             :         : 5         : N              
+GND                          : T23       : gnd    :                   :         :           :                
+VCCIO5                       : T24       : power  :                   : 2.5V    : 5         :                
+debug_flat_o[27]             : T25       : output : 2.5 V             :         : 5         : N              
+net_packet_flat_i[35]        : T26       : input  : 2.5 V             :         : 5         : N              
+GND                          : T27       : gnd    :                   :         :           :                
+VCCIO5                       : T28       : power  :                   : 2.5V    : 5         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : U1        :        :                   :         : 2         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : U2        :        :                   :         : 2         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : U3        :        :                   :         : 2         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : U4        :        :                   :         : 2         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : U5        :        :                   :         : 2         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : U6        :        :                   :         : 2         :                
+to_mem_flat_o[31]            : U7        : output : 2.5 V             :         : 2         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : U8        :        :                   :         : 2         :                
+GND                          : U9        : gnd    :                   :         :           :                
+VCCINT                       : U10       : power  :                   : 1.2V    :           :                
+GND                          : U11       : gnd    :                   :         :           :                
+VCCINT                       : U12       : power  :                   : 1.2V    :           :                
+GND                          : U13       : gnd    :                   :         :           :                
+VCCINT                       : U14       : power  :                   : 1.2V    :           :                
+GND                          : U15       : gnd    :                   :         :           :                
+VCCINT                       : U16       : power  :                   : 1.2V    :           :                
+GND                          : U17       : gnd    :                   :         :           :                
+VCCINT                       : U18       : power  :                   : 1.2V    :           :                
+GND                          : U19       : gnd    :                   :         :           :                
+from_mem_flat_i[24]          : U20       : input  : 2.5 V             :         : 5         : N              
+VCCIO5                       : U21       : power  :                   : 2.5V    : 5         :                
+net_packet_flat_i[11]        : U22       : input  : 2.5 V             :         : 5         : N              
+data_mem_addr[20]            : U23       : output : 2.5 V             :         : 5         : N              
+debug_flat_o[21]             : U24       : output : 2.5 V             :         : 5         : N              
+from_mem_flat_i[7]           : U25       : input  : 2.5 V             :         : 5         : N              
+net_packet_flat_i[24]        : U26       : input  : 2.5 V             :         : 5         : N              
+net_packet_flat_o[39]        : U27       : output : 2.5 V             :         : 5         : N              
+debug_flat_o[28]             : U28       : output : 2.5 V             :         : 5         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : V1        :        :                   :         : 2         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : V2        :        :                   :         : 2         :                
+net_packet_flat_i[34]        : V3        : input  : 2.5 V             :         : 2         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : V4        :        :                   :         : 2         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : V5        :        :                   :         : 2         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : V6        :        :                   :         : 2         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : V7        :        :                   :         : 2         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : V8        :        :                   :         : 2         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : V9        :        :                   :         : 2         :                
+GND                          : V10       : gnd    :                   :         :           :                
+VCCINT                       : V11       : power  :                   : 1.2V    :           :                
+GND                          : V12       : gnd    :                   :         :           :                
+VCCINT                       : V13       : power  :                   : 1.2V    :           :                
+GND                          : V14       : gnd    :                   :         :           :                
+VCCINT                       : V15       : power  :                   : 1.2V    :           :                
+GND                          : V16       : gnd    :                   :         :           :                
+VCCINT                       : V17       : power  :                   : 1.2V    :           :                
+GND                          : V18       : gnd    :                   :         :           :                
+VCCINT                       : V19       : power  :                   : 1.2V    :           :                
+data_mem_addr[4]             : V20       : output : 2.5 V             :         : 5         : N              
+net_packet_flat_o[21]        : V21       : output : 2.5 V             :         : 5         : N              
+from_mem_flat_i[25]          : V22       : input  : 2.5 V             :         : 5         : N              
+net_packet_flat_i[1]         : V23       : input  : 2.5 V             :         : 5         : N              
+net_packet_flat_i[39]        : V24       : input  : 2.5 V             :         : 5         : N              
+data_mem_addr[14]            : V25       : output : 2.5 V             :         : 5         : N              
+net_packet_flat_i[40]        : V26       : input  : 2.5 V             :         : 5         : N              
+net_packet_flat_i[32]        : V27       : input  : 2.5 V             :         : 5         : N              
+from_mem_flat_i[21]          : V28       : input  : 2.5 V             :         : 5         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : W1        :        :                   :         : 2         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : W2        :        :                   :         : 2         :                
+debug_flat_o[33]             : W3        : output : 2.5 V             :         : 2         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : W4        :        :                   :         : 2         :                
+VCCIO2                       : W5        : power  :                   : 2.5V    : 2         :                
+GND                          : W6        : gnd    :                   :         :           :                
+VCCIO2                       : W7        : power  :                   : 2.5V    : 2         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : W8        :        :                   :         : 2         :                
+to_mem_flat_o[25]            : W9        : output : 2.5 V             :         : 2         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : W10       :        :                   :         : 3         :                
+GND                          : W11       : gnd    :                   :         :           :                
+VCCINT                       : W12       : power  :                   : 1.2V    :           :                
+GND                          : W13       : gnd    :                   :         :           :                
+VCCINT                       : W14       : power  :                   : 1.2V    :           :                
+GND                          : W15       : gnd    :                   :         :           :                
+from_mem_flat_i[4]           : W16       : input  : 2.5 V             :         : 4         : N              
+GND                          : W17       : gnd    :                   :         :           :                
+VCCINT                       : W18       : power  :                   : 1.2V    :           :                
+GND                          : W19       : gnd    :                   :         :           :                
+debug_flat_o[25]             : W20       : output : 2.5 V             :         : 5         : N              
+net_packet_flat_i[15]        : W21       : input  : 2.5 V             :         : 5         : N              
+from_mem_flat_i[19]          : W22       : input  : 2.5 V             :         : 5         : N              
+GND                          : W23       : gnd    :                   :         :           :                
+VCCIO5                       : W24       : power  :                   : 2.5V    : 5         :                
+net_packet_flat_o[35]        : W25       : output : 2.5 V             :         : 5         : N              
+from_mem_flat_i[16]          : W26       : input  : 2.5 V             :         : 5         : N              
+from_mem_flat_i[17]          : W27       : input  : 2.5 V             :         : 5         : N              
+from_mem_flat_i[18]          : W28       : input  : 2.5 V             :         : 5         : N              
+GND+                         : Y1        :        :                   :         : 2         :                
+GND+                         : Y2        :        :                   :         : 2         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : Y3        :        :                   :         : 2         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : Y4        :        :                   :         : 2         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : Y5        :        :                   :         : 2         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : Y6        :        :                   :         : 2         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : Y7        :        :                   :         : 2         :                
+VCCA1                        : Y8        : power  :                   : 2.5V    :           :                
+VCCD_PLL1                    : Y9        : power  :                   : 1.2V    :           :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : Y10       :        :                   :         : 3         :                
+GND                          : Y11       : gnd    :                   :         :           :                
+net_packet_flat_o[42]        : Y12       : output : 2.5 V             :         : 3         : N              
+net_packet_flat_o[20]        : Y13       : output : 2.5 V             :         : 3         : N              
+net_packet_flat_o[27]        : Y14       : output : 2.5 V             :         : 3         : N              
+net_packet_flat_i[29]        : Y15       : input  : 2.5 V             :         : 3         : N              
+VCCIO4                       : Y16       : power  :                   : 2.5V    : 4         :                
+to_mem_flat_o[18]            : Y17       : output : 2.5 V             :         : 4         : N              
+GND                          : Y18       : gnd    :                   :         :           :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : Y19       :        :                   :         : 4         :                
+VCCD_PLL4                    : Y20       : power  :                   : 1.2V    :           :                
+VCCA4                        : Y21       : power  :                   : 2.5V    :           :                
+to_mem_flat_o[7]             : Y22       : output : 2.5 V             :         : 5         : N              
+net_packet_flat_o[25]        : Y23       : output : 2.5 V             :         : 5         : N              
+from_mem_flat_i[26]          : Y24       : input  : 2.5 V             :         : 5         : N              
+net_packet_flat_o[11]        : Y25       : output : 2.5 V             :         : 5         : N              
+from_mem_flat_i[27]          : Y26       : input  : 2.5 V             :         : 5         : N              
+GND+                         : Y27       :        :                   :         : 5         :                
+GND+                         : Y28       :        :                   :         : 5         :                

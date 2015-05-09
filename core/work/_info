@@ -1,0 +1,509 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\TimNguyen\Documents\Dropbox\CSE141L\core
+valu
+Z1 DXx6 sv_std 3 std 0 22 F[19LRNL:5;XmIFh[XOPn1
+Z2 DXx4 work 11 alu_sv_unit 0 22 ;_=Ll@zG5fmRcfmQ]UX6e3
+Z3 VI7lk`SQ8Za@A6?2c<@gWI2
+r1
+31
+Z4 !s100 >5OSNVU=joWkeXAZT^a2J0
+Z5 IE2jSfa:eFdKAYe4``1A8l2
+Z6 !s105 alu_sv_unit
+S1
+Z7 dC:\Users\TimNguyen\Documents\Dropbox\CSE141L\core
+Z8 w1430354506
+Z9 8C:/Users/TimNguyen/Documents/Dropbox/CSE141L/core/alu.sv
+Z10 FC:/Users/TimNguyen/Documents/Dropbox/CSE141L/core/alu.sv
+L0 4
+Z11 OV;L;10.1e;51
+Z12 !s108 1431205747.675000
+Z13 !s107 definitions.sv|C:/Users/TimNguyen/Documents/Dropbox/CSE141L/core/alu.sv|
+Z14 !s90 -reportprogress|300|-work|work|-sv|C:/Users/TimNguyen/Documents/Dropbox/CSE141L/core/alu.sv|
+Z15 o-work work -sv -O0
+!s85 0
+!i10b 1
+!s101 -O0
+Xalu_sv_unit
+R1
+Z16 V;_=Ll@zG5fmRcfmQ]UX6e3
+r1
+31
+Z17 !s100 Qm[INFIBHQV<@CCJVgcXX3
+Z18 I;_=Ll@zG5fmRcfmQ]UX6e3
+S1
+R7
+R8
+R9
+R10
+Z19 Fdefinitions.sv
+L1 61
+R11
+R12
+R13
+R14
+R15
+!s85 0
+!i10b 1
+!i103 1
+!s101 -O0
+vcl_decode
+R1
+Z20 DXx4 work 17 cl_decode_sv_unit 0 22 `DKgU=SHNO_cEGYH:OD>I2
+Z21 Vj2XdPkIgM0O^Hn@`n`AWZ1
+r1
+31
+Z22 !s100 B9B;<eI<@]ah]cZQfEJW53
+Z23 I`DGmdFo4EdYiAPC]WaWC52
+Z24 !s105 cl_decode_sv_unit
+S1
+R7
+Z25 w1430347281
+Z26 8C:/Users/TimNguyen/Documents/Dropbox/CSE141L/core/cl_decode.sv
+Z27 FC:/Users/TimNguyen/Documents/Dropbox/CSE141L/core/cl_decode.sv
+L0 4
+R11
+Z28 !s108 1431205747.862000
+Z29 !s107 definitions.sv|C:/Users/TimNguyen/Documents/Dropbox/CSE141L/core/cl_decode.sv|
+Z30 !s90 -reportprogress|300|-work|work|-sv|C:/Users/TimNguyen/Documents/Dropbox/CSE141L/core/cl_decode.sv|
+R15
+!s85 0
+!i10b 1
+!s101 -O0
+Xcl_decode_sv_unit
+R1
+Z31 V`DKgU=SHNO_cEGYH:OD>I2
+r1
+31
+Z32 !s100 SRQBZd4BW4?c@CF3lDFJF3
+Z33 I`DKgU=SHNO_cEGYH:OD>I2
+S1
+R7
+R25
+R26
+R27
+R19
+L1 61
+R11
+R28
+R29
+R30
+R15
+!s85 0
+!i10b 1
+!i103 1
+!s101 -O0
+vcl_state_machine
+R1
+Z34 DXx4 work 24 cl_state_machine_sv_unit 0 22 3ZdT_K[k5mPVJ4o>VimgY2
+Z35 V_HO6g@<O=0IE^>?5Z5=h`1
+r1
+31
+Z36 !s100 TQiQ`fk`Jbekz`gAU=EJM2
+Z37 I4fjRPQjFin92SWIcn;]833
+Z38 !s105 cl_state_machine_sv_unit
+S1
+R7
+Z39 w1429830190
+Z40 8C:/Users/TimNguyen/Documents/Dropbox/CSE141L/core/cl_state_machine.sv
+Z41 FC:/Users/TimNguyen/Documents/Dropbox/CSE141L/core/cl_state_machine.sv
+L0 3
+R11
+Z42 !s108 1431205748.096000
+Z43 !s107 definitions.sv|C:/Users/TimNguyen/Documents/Dropbox/CSE141L/core/cl_state_machine.sv|
+Z44 !s90 -reportprogress|300|-work|work|-sv|C:/Users/TimNguyen/Documents/Dropbox/CSE141L/core/cl_state_machine.sv|
+R15
+!s85 0
+!i10b 1
+!s101 -O0
+Xcl_state_machine_sv_unit
+R1
+Z45 V3ZdT_K[k5mPVJ4o>VimgY2
+r1
+31
+Z46 !s100 ehDdWXU7X99JERVkdCc<T1
+Z47 I3ZdT_K[k5mPVJ4o>VimgY2
+S1
+R7
+Z48 w1430346641
+R40
+R41
+R19
+L1 61
+R11
+R42
+R43
+R44
+R15
+!s85 0
+!i10b 1
+!i103 1
+!s101 -O0
+vcore
+R1
+Z49 DXx4 work 12 core_sv_unit 0 22 c7MN5V0zUBg5Y]U32mcei0
+Z50 V8g;U8en<PLBg@@AL4CL>f3
+r1
+31
+Z51 !s100 a@:Mb5K5hBGVdcjozBo^02
+Z52 IE>lc9AlVb@cfmo79T[3H73
+Z53 !s105 core_sv_unit
+S1
+R7
+Z54 w1430001618
+Z55 8C:/Users/TimNguyen/Documents/Dropbox/CSE141L/core/core.sv
+Z56 FC:/Users/TimNguyen/Documents/Dropbox/CSE141L/core/core.sv
+L0 3
+R11
+Z57 !s108 1431205748.221000
+Z58 !s107 definitions.sv|C:/Users/TimNguyen/Documents/Dropbox/CSE141L/core/core.sv|
+Z59 !s90 -reportprogress|300|-work|work|-sv|C:/Users/TimNguyen/Documents/Dropbox/CSE141L/core/core.sv|
+R15
+!s85 0
+!i10b 1
+!s101 -O0
+vcore_flattened
+R1
+Z60 DXx4 work 22 core_flattened_sv_unit 0 22 cg_HEF1BW=Az6Pb1RPUAF3
+Z61 V2R0=69R;zAfBGzKl1Q]2X0
+r1
+31
+Z62 !s100 0QBL0fZ7bHL>KJz1R2ZjF2
+Z63 IUAH^;Y5H5KL@ON7;O7m_S2
+Z64 !s105 core_flattened_sv_unit
+S1
+R7
+Z65 w1429825604
+Z66 8C:/Users/TimNguyen/Documents/Dropbox/CSE141L/core/core_flattened.sv
+Z67 FC:/Users/TimNguyen/Documents/Dropbox/CSE141L/core/core_flattened.sv
+L0 4
+R11
+Z68 !s108 1431205748.345000
+Z69 !s107 definitions.sv|C:/Users/TimNguyen/Documents/Dropbox/CSE141L/core/core_flattened.sv|
+Z70 !s90 -reportprogress|300|-work|work|-sv|C:/Users/TimNguyen/Documents/Dropbox/CSE141L/core/core_flattened.sv|
+R15
+!s85 0
+!i10b 1
+!s101 -O0
+Xcore_flattened_sv_unit
+R1
+Z71 Vcg_HEF1BW=Az6Pb1RPUAF3
+r1
+31
+Z72 !s100 z3?2j27^>?4mcdbjR3EJ:2
+Z73 Icg_HEF1BW=Az6Pb1RPUAF3
+S1
+R7
+R48
+R66
+R67
+R19
+L1 61
+R11
+R68
+R69
+R70
+R15
+!s85 0
+!i10b 1
+!i103 1
+!s101 -O0
+Xcore_sv_unit
+R1
+Z74 Vc7MN5V0zUBg5Y]U32mcei0
+r1
+31
+Z75 !s100 bOVF?nA1g:@CALO^<[N_Z3
+Z76 Ic7MN5V0zUBg5Y]U32mcei0
+S1
+R7
+R48
+R55
+R56
+R19
+L1 61
+R11
+R57
+R58
+R59
+R15
+!s85 0
+!i10b 1
+!i103 1
+!s101 -O0
+vcore_tb
+R1
+Z77 DXx4 work 15 core_tb_sv_unit 0 22 89;a;VXK7Y<AnXFM@LM7o0
+Z78 VlN3iUPNV?OYGNgj@DJaoE2
+r1
+31
+Z79 !s100 DTXhDbg3=c3dSj]>VZDaW2
+Z80 If6V_:mm1g]DbN:hAS^8_=2
+Z81 !s105 core_tb_sv_unit
+S1
+R7
+Z82 w1429995419
+Z83 8C:/Users/TimNguyen/Documents/Dropbox/CSE141L/core/core_tb.sv
+Z84 FC:/Users/TimNguyen/Documents/Dropbox/CSE141L/core/core_tb.sv
+L0 17
+R11
+Z85 !s108 1431205748.470000
+Z86 !s107 definitions.sv|C:/Users/TimNguyen/Documents/Dropbox/CSE141L/core/core_tb.sv|
+Z87 !s90 -reportprogress|300|-work|work|-sv|C:/Users/TimNguyen/Documents/Dropbox/CSE141L/core/core_tb.sv|
+R15
+!s85 0
+!i10b 1
+!s101 -O0
+Xcore_tb_sv_unit
+R1
+Z88 V89;a;VXK7Y<AnXFM@LM7o0
+r1
+31
+Z89 !s100 ]UU0az@DGDJC8i_4CHOa31
+Z90 I89;a;VXK7Y<AnXFM@LM7o0
+S1
+R7
+R48
+R83
+R84
+R19
+L1 61
+R11
+R85
+R86
+R87
+R15
+!s85 0
+!i10b 1
+!i103 1
+!s101 -O0
+vdata_mem
+R1
+Z91 DXx4 work 16 data_mem_sv_unit 0 22 FQdiJF8n7D:S2Q1Ggb>971
+Z92 VJTgBNdnj9c=zg80[gUozo3
+r1
+31
+Z93 !s100 __9z_7zP=<LP7JJDE@10@2
+Z94 I@E30hXSM8dFmZR@i7VY>Y2
+Z95 !s105 data_mem_sv_unit
+S1
+R7
+R65
+Z96 8C:/Users/TimNguyen/Documents/Dropbox/CSE141L/core/data_mem.sv
+Z97 FC:/Users/TimNguyen/Documents/Dropbox/CSE141L/core/data_mem.sv
+L0 11
+R11
+Z98 !s108 1431205748.595000
+Z99 !s107 definitions.sv|C:/Users/TimNguyen/Documents/Dropbox/CSE141L/core/data_mem.sv|
+Z100 !s90 -reportprogress|300|-work|work|-sv|C:/Users/TimNguyen/Documents/Dropbox/CSE141L/core/data_mem.sv|
+R15
+!s85 0
+!i10b 1
+!s101 -O0
+Xdata_mem_sv_unit
+R1
+Z101 VFQdiJF8n7D:S2Q1Ggb>971
+r1
+31
+Z102 !s100 LBeO`ME5iLNbdSHF7zWC=3
+Z103 IFQdiJF8n7D:S2Q1Ggb>971
+S1
+R7
+R48
+R96
+R97
+R19
+L1 61
+R11
+R98
+R99
+R100
+R15
+!s85 0
+!i10b 1
+!i103 1
+!s101 -O0
+Xdefinitions_sv_unit
+R1
+Z104 !s100 0<Fhbdl7OS]>HjKlFV`o>2
+Z105 Igi]dWYHmR=l_PTj_?gfdf3
+Z106 Vgi]dWYHmR=l_PTj_?gfdf3
+S1
+R7
+R48
+Z107 8C:/Users/TimNguyen/Documents/Dropbox/CSE141L/core/definitions.sv
+Z108 FC:/Users/TimNguyen/Documents/Dropbox/CSE141L/core/definitions.sv
+L0 61
+R11
+r1
+31
+Z109 !s90 -reportprogress|300|-work|work|-sv|C:/Users/TimNguyen/Documents/Dropbox/CSE141L/core/definitions.sv|
+R15
+Z110 !s108 1431205748.720000
+Z111 !s107 C:/Users/TimNguyen/Documents/Dropbox/CSE141L/core/definitions.sv|
+!i10b 1
+!i103 1
+!s85 0
+!s101 -O0
+vinstr_mem
+R1
+Z112 DXx4 work 17 instr_mem_sv_unit 0 22 j@md@Jok<nRO>ZS2Gc^E21
+Z113 VFbL0l?mC^hD9I>mmSWaGQ0
+r1
+31
+Z114 !s100 9V_;fi^UOhU^a<:H2_;>P0
+Z115 InRl<:4l5D29^fL59MSR8l3
+Z116 !s105 instr_mem_sv_unit
+S1
+R7
+R65
+Z117 8C:/Users/TimNguyen/Documents/Dropbox/CSE141L/core/instr_mem.sv
+Z118 FC:/Users/TimNguyen/Documents/Dropbox/CSE141L/core/instr_mem.sv
+L0 5
+R11
+Z119 !s108 1431205748.907000
+Z120 !s107 definitions.sv|C:/Users/TimNguyen/Documents/Dropbox/CSE141L/core/instr_mem.sv|
+Z121 !s90 -reportprogress|300|-work|work|-sv|C:/Users/TimNguyen/Documents/Dropbox/CSE141L/core/instr_mem.sv|
+R15
+!s85 0
+!i10b 1
+!s101 -O0
+Xinstr_mem_sv_unit
+R1
+Z122 Vj@md@Jok<nRO>ZS2Gc^E21
+r1
+31
+Z123 !s100 T4C;>0fA[Ck2O@VMGmz]Q2
+Z124 Ij@md@Jok<nRO>ZS2Gc^E21
+S1
+R7
+R48
+R117
+R118
+R19
+L1 61
+R11
+R119
+R120
+R121
+R15
+!s85 0
+!i10b 1
+!i103 1
+!s101 -O0
+vminer_tb
+R1
+Z125 DXx4 work 16 miner_tb_sv_unit 0 22 LIWj97ji[jPV]MXJ2>;d13
+Z126 VmUcjK`[BR2I4D=oC[X9C`0
+r1
+!s85 0
+31
+!i10b 1
+Z127 !s100 Zj=o<iDad]@ZFc0ITPjTJ0
+Z128 IeT4S3DJ<Oe`n7F[@>MN?D1
+Z129 !s105 miner_tb_sv_unit
+S1
+R7
+Z130 w1430268485
+Z131 8C:/Users/TimNguyen/Documents/Dropbox/CSE141L/core/miner_tb.sv
+Z132 FC:/Users/TimNguyen/Documents/Dropbox/CSE141L/core/miner_tb.sv
+L0 21
+R11
+Z133 !s108 1431205749.237000
+Z134 !s107 definitions.sv|C:/Users/TimNguyen/Documents/Dropbox/CSE141L/core/miner_tb.sv|
+Z135 !s90 -reportprogress|300|-work|work|-sv|C:/Users/TimNguyen/Documents/Dropbox/CSE141L/core/miner_tb.sv|
+!s101 -O0
+R15
+Xminer_tb_sv_unit
+R1
+Z136 VLIWj97ji[jPV]MXJ2>;d13
+r1
+!s85 0
+31
+!i10b 1
+Z137 !s100 B4QJ_D?=5iiYUKS9LC7J:2
+Z138 ILIWj97ji[jPV]MXJ2>;d13
+!i103 1
+S1
+R7
+R48
+R131
+R132
+R19
+L1 61
+R11
+R133
+R134
+R135
+!s101 -O0
+R15
+Xnet_packet_logger_s_sv_unit
+R1
+Z139 V8B<97aRLL0hm:m7QXahiF1
+r1
+31
+Z140 !s100 bh<M7fI_^X>]A5fQ:X3251
+Z141 I8B<97aRLL0hm:m7QXahiF1
+S1
+R7
+R48
+Z142 8C:/Users/TimNguyen/Documents/Dropbox/CSE141L/core/net_packet_logger_s.sv
+Z143 FC:/Users/TimNguyen/Documents/Dropbox/CSE141L/core/net_packet_logger_s.sv
+R19
+L1 61
+R11
+Z144 !s108 1431205749.034000
+Z145 !s107 definitions.sv|C:/Users/TimNguyen/Documents/Dropbox/CSE141L/core/net_packet_logger_s.sv|
+Z146 !s90 -reportprogress|300|-work|work|-sv|C:/Users/TimNguyen/Documents/Dropbox/CSE141L/core/net_packet_logger_s.sv|
+R15
+!s85 0
+!i10b 1
+!i103 1
+!s101 -O0
+vnetwork_packet_s_logger
+R1
+Z147 DXx4 work 27 net_packet_logger_s_sv_unit 0 22 8B<97aRLL0hm:m7QXahiF1
+Z148 VPlgif>=;4=jBTE<GHm7GV1
+r1
+31
+Z149 !s100 RQbh:HiNZlLK7R=h86PP21
+Z150 IPmY`Y7jaXB9b4Bz[b8OLj3
+Z151 !s105 net_packet_logger_s_sv_unit
+S1
+R7
+R65
+R142
+R143
+L0 8
+R11
+R144
+R145
+R146
+R15
+!s85 0
+!i10b 1
+!s101 -O0
+vreg_file
+R1
+Z152 !s100 ITml9NL5XBa7l[LzXLeO[3
+Z153 IklBYLBC<GAmn=a@mXK@Y80
+Z154 VD74VOFVKJXa3lQF`;:Obz1
+Z155 !s105 reg_file_sv_unit
+S1
+R7
+R65
+Z156 8C:/Users/TimNguyen/Documents/Dropbox/CSE141L/core/reg_file.sv
+Z157 FC:/Users/TimNguyen/Documents/Dropbox/CSE141L/core/reg_file.sv
+L0 2
+R11
+r1
+31
+Z158 !s90 -reportprogress|300|-work|work|-sv|C:/Users/TimNguyen/Documents/Dropbox/CSE141L/core/reg_file.sv|
+R15
+!i10b 1
+!s85 0
+Z159 !s108 1431205749.143000
+Z160 !s107 C:/Users/TimNguyen/Documents/Dropbox/CSE141L/core/reg_file.sv|
+!s101 -O0

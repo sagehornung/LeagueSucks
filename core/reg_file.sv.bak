@@ -1,0 +1,33 @@
+`timescale 1ns / 1ps
+/*
+ * CSE141L Lab1: Tools of the Trade
+ * University of California, San Diego
+ * 
+ * Written by Donghwan Jeon, 4/1/2007
+ * Modified by Vikram Bhatt, 30/3/2011
+ * Modified by Nikolaos Strikos, 4/8/2012
+ */
+
+module registers#(parameter W = 6, N= 32)
+(
+ input clk,
+ input wen_i,
+ input [W-1:0] wa_i, ra0_i, ra1_i,
+ input [N-1:0] wd_i, 
+ 
+ output [N-1:0] rd0_o , rd1_o
+);
+
+	logic [N-1:0] holder [2**W-1:0];
+	assign rd0_o=holder[ra0_i];
+	assign rd1_o=holder[ra1_i];
+
+   always_ff @(posedge clk) //enable SystemVerilog to make always_ff work!
+     begin
+			if(wen_i) 
+			begin
+				holder[wa_i]<=wd_i;
+			end
+     end
+
+endmodule
